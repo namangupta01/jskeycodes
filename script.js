@@ -162,7 +162,6 @@ function keyCodesGenerator(e){
 	if(!e.metaKey){
 		e.preventDefault();
 	}
-	console.log(e);
 	code=e.keyCode;
 	codeBox.innerText= code+"";
 	buttonPressed.innerText=e.key+"";
