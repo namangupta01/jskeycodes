@@ -1,4 +1,6 @@
 body{
+	background: linear-gradient(
+		to bottom,#39393a,white);
 	display: flex;
 	flex-direction:column;
 	justify-content:space-between;
